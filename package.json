@@ -1,6 +1,7 @@
 {
   "name": "monorepo",
   "private": true,
+  "packageManager": "npm@10.9.2",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -11,6 +12,6 @@
     "lint": "turbo lint"
   },
   "devDependencies": {
-    "turbo": "^1.10.7"
+    "turbo": "^2.5.8"
   }
 }
